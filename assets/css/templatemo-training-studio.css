@@ -1004,10 +1004,129 @@ contact
   padding: 0px;
 }
 
+body {
+  background-color: #d8d8d8;
+}
+
+.social-menu ul {
+  position: absolute;
+  top: 75%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: .5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #00b509;
+}
+
 #contact-us .contact-form {
-  padding: 80px;
-  background-image: url(../images/contact-bg.jpg);
-  background-position: center center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/444.jpg);
+  background-position: left left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact-us .contact-form #map h3{
+  margin: auto;
+  text-align: center;
+}
+
+
+#contact-us .contact-for #cont h3{
+  
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+
+  
+}
+
+#contact-us .contact-for #cont2 h3{
+  
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(229, 255, 0);
+  letter-spacing: 1px;
+  width: 500px;
+  
+}
+
+#contact-us .contact-for #email h3{
+  
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(229, 255, 0);
+  letter-spacing: 1px;
+  width: 500px;
+
+  
+}
+
+#contact-us .contact-for {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/444.jpg);
+  background-position: left left;
   background-repeat: no-repeat;
   background-size: cover;
 }
